@@ -10,7 +10,7 @@ const person = 'Alex';
 const bool = false;
 
 console.log(bool);
-
+//
 const obj = {
     name: 'John',
     age: 25,

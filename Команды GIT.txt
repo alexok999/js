@@ -27,5 +27,5 @@ GITHUB
 Создаем новый проект, 
 
 git remote add origin https://github.com/alexok999/project (связываем локальный репозиторий с репозиторием созданным на гитхаб)
-git branch -M main (ветки, теперь вместо master станет main)
+git branch -M master (ветки, теперь вместо master -для себя main - когда много людей работает)
 git push -u origin master

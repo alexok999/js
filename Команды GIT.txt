@@ -18,3 +18,14 @@ git add main.css - для добавление отдельно создавше
 //Коммит
 
 git commit -a -m"first commit" - коммит файла, -m(означает меседж-описание), -а (типа add - добавление файлов)
+
+
+git log - проверка авторов, время и описания коммитов
+
+
+GITHUB
+Создаем новый проект, 
+
+git remote add origin https://github.com/alexok999/project (связываем локальный репозиторий с репозиторием созданным на гитхаб)
+git branch -M main (ветки, теперь вместо master станет main)
+git push -u origin master

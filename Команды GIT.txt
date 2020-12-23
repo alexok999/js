@@ -1,0 +1,20 @@
+shift + ПКМ - нажать в папке и открыть powershell
+// Команды
+cd - переход в папку
+git init - инициализация git  в папке проекта
+
+//Создание Юзера
+git config --local user.email 16san4ez@gmail.com  - локальная инициализация юзера
+git config --local user.name "Alex"  - локальная инициализация юзера
+
+git config --global user.email 16san4ez@gmail.com  - глобальная инициализация юзера
+git config --global user.name "Alex"  - глобальная инициализация юзера
+
+// Добавление и создание файлов
+git status - проверка слежения за файлами (следит гит или нет)
+git add -A - добавление всех файлов в слежение (Changes to be committed:)
+git add main.css - для добавление отдельно создавшегося файла (если *.css добавятся все файлы с этим расширением)
+
+//Коммит
+
+git commit -a -m"first commit" - коммит файла, -m(означает меседж-описание), -а (типа add - добавление файлов)

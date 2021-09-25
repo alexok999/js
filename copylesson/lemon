@@ -1,0 +1,130 @@
+// let a = 5;
+// if (a > 1){
+//     console.log('Больше');
+// }
+
+
+// let age = 13;
+// if (age > 17) {
+//     console.log("18+");
+// } else {
+//     console.log("18-");
+// }
+
+// let c = 4;
+// if (c === 1){
+//     console.log('odin0');
+// } else  if ( c === 2){
+//     console.log ("dva");
+// } else if (c === 3){
+//     console.log("tri");
+// } else {
+//     console.log("ne 1 ne 2 ne 3");
+// }
+
+
+// let age = 13;
+// if (age > 17) {
+//     console.log("18+");
+// } else {
+//     console.log("18-");
+// }
+
+
+
+// Условие ? дейтвие если true и действие если false
+// let age = 17;
+// (age >= 18) ? console.log('bolshe ili ravno') : (age === 17) ? console.log('17') : console.log('ne 17');
+
+
+// let b = ( 5 > 4) ? 3 : 2;
+// console.log(( 5 > 4) ? 'boslhe' : 'net');
+
+/////////
+// let count = 12;
+// switch(count){
+//     case 1:
+//         console.log('count is 1');
+//         break;
+//     case 2:
+//         console.log('count is 2');
+//         break;
+//     case 3:
+//         console.log('count is 3');
+//         break;
+//     default:
+//         console.log('default');
+
+// }
+
+
+
+// let greed = 'Привет';
+// switch (greed){
+//     case 'Привет':
+//         console.log('Вежливость 0');
+//         break;
+//     case 'Здравствуйте':
+//         console.log('Вежливость 100');
+//         break;
+//     default:
+//         console.log('не поздоровался');
+// }
+
+// let count2 = 14;
+// switch (count2){
+//     case (14 || 13 || 15):
+//         console.log('24 || 15 || 13');   
+//         break;
+//     default:
+//         console.log('ss');
+// }
+
+
+
+//Циклы  for  - for in - for of -- while -- do while
+//
+let a = 10;
+while (a >= 5){
+    console.log(a);
+    a--;    
+}
+
+
+
+
+
+let counter = 0;
+while(true){
+    console.log('1');
+    counter++;
+
+    if(counter === 5){
+        break;
+    }
+}
+
+
+let counter2 = 0;
+do{
+    console.log('doing');
+    counter2++;
+} while (counter2 < 5);
+
+
+
+let counter3 = 2;
+do{
+    console.log(counter3);
+} while( counter3 !== 2);
+
+
+// начало итерации; условие пока идет работа цикла; действие которое не всегда обязательное
+for(let i = 0; i<=10; i++){
+    console.log('forin');
+}
+
+
+
+
+
